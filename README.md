@@ -1,7 +1,7 @@
-<!-- ![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif) -->
-<p align="center">
-  <img width="460" height="300" src="[[https://picsum.photos/460/300](https://developers.giphy.com/branch/master/static/api-512d36c09662682717108a38bbb5c57d.gif)](https://www.mywebworld.in/wp-content/uploads/2018/05/web-design-kerala.gif)">
-</p>
+<!-- ![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
+ -->
+ <p><img align="center" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java developer" /></p>
+ 
 
 <h1 align="center">Hi 👋, I'm Abhishek Tandon</h1>
 <h3 align="center">A passionate Java developer from India</h3>
