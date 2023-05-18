@@ -1,4 +1,4 @@
-<img align="center" src="[[https://github-readme-streak-stats.herokuapp.com/?user=tandon245&](https://gstarinfotech.com/wp-content/uploads/2018/01/java.gif)](https://gstarinfotech.com/wp-content/uploads/2018/01/java.gif)" alt="Java Developer" />
+
 
 <h1 align="center">Hi 👋, I'm Abhishek Tandon</h1>
 <h3 align="center">A passionate Java developer from India</h3>
