@@ -1,4 +1,8 @@
-![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
+<!-- ![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif) -->
+<p align="center">
+  <img width="460" height="300" src="[https://picsum.photos/460/300](https://developers.giphy.com/branch/master/static/api-512d36c09662682717108a38bbb5c57d.gif)">
+</p>
+
 <h1 align="center">Hi 👋, I'm Abhishek Tandon</h1>
 <h3 align="center">A passionate Java developer from India</h3>
 
