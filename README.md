@@ -7,15 +7,15 @@
 <h1 align="center">Hi 👋, I'm <b>Abhishek Tandon</b></h1>
 <h3 align="center">A passionate Java developer from India</h3>
 
-- 🔭 I’m currently working on **Java, C Programming,SQL,HTML and CSS**
+- 🔭 I’m currently working on **Java, Spring Boot, C Programming,SQL,HTML and CSS**
 
 - 🌱 I’m currently learning **Java Development and Spring boot**
 
-- 👯 I’m looking to collaborate on **Java Developers**
+- 👯 I’m looking to collaborate on **Java Development**
 
 - 📫 How to reach me **tandonabhishek245@gmail.com**
 
-- 📄 Know about my experiences <a href="https://docs.google.com/document/d/1t3Cs-mGCdvcty7z0TSqosGmqsItZeSj6k4zheVafzso/edit" target="blank">Resume</a>
+- 📄 Know about my experiences <a href="[https://docs.google.com/document/d/1t3Cs-mGCdvcty7z0TSqosGmqsItZeSj6k4zheVafzso/edit](https://docs.google.com/document/d/1paNjovSrD4W1RP34llG0CK3gRo0i4FVd/edit?usp=sharing&ouid=104017589111202448870&rtpof=true&sd=true)" target="blank">Resume</a>
 
 - ⚡ Fun fact **🎸 Would love: To know how to play guitar**
 
