@@ -4,7 +4,7 @@
  <p><img align="center" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java developer" /></p>
  
 
-<h1 align="center">Hi 👋, I'm <b></b>Abhishek Tandon<b></b></h1>
+<h1 align="center">Hi 👋, I'm <b>Abhishek Tandon</b></h1>
 <h3 align="center">A passionate Java developer from India</h3>
 
 - 🔭 I’m currently working on **Java, C Programming,SQL,HTML and CSS**
