@@ -5,7 +5,7 @@
   <img src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java Developer" />
 </p>
 <p>
-  <img src="https://media.tenor.com/2unHkuoMLhcAAAAd/data-code.gif",alt="pic"/>
+  <img src="https://media.tenor.com/2unHkuoMLhcAAAAd/data-code.gif" alt="pic" />
   
 </p>
 
