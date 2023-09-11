@@ -1,5 +1,9 @@
 <!-- GitHub Profile README -->
 
+<!-- Header Image (You can replace this with a professional software developer animation) -->
+<p align="center">
+  <img src="https://example.com/professional_developer_animation.gif" alt="Professional Software Developer" />
+</p>
 <!-- Header Image (You can replace this with a personal banner if desired) -->
 <p align="center">
   <img src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java Developer" />
