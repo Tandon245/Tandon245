@@ -75,16 +75,18 @@ Let's connect and have a meaningful conversation about technology and developmen
 <!-- Technologies and Tools Section -->
 ### Technologies and Tools
 
-I work with a wide range of technologies and tools to bring my ideas to life, including:
+I work with a wide range of technologies and tools to bring my ideas to life:
 
-- Java ![Java Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg)
-- Spring Boot ![Spring Boot Logo](https://www.vectorlogo.zone/logos/springio/springio-icon.svg)
-- C Programming ![C Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg)
-- HTML ![HTML Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)
-- CSS ![CSS Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)
-- AWS ![AWS Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg)
-- Git ![Git Logo](https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg)
-- Postman ![Postman Logo](https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg)
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="30" height="30" />
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Programming" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="30" height="30" />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="30" height="30" />
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="30" height="30" />
+</p>
 
 ---
 
