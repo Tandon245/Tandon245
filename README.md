@@ -1,75 +1,52 @@
-<!-- GitHub Profile README -->
-
+<!-- GitHub Streak -->
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME" alt="GitHub Streak" />
 </p>
 
-<h1 align="center">Hi there, I'm <b>Abhishek Tandon</b></h1>
-<h3 align="center">Passionate Java Developer | India 🇮🇳</h3>
+<!-- Your Information -->
+<h1 align="center">Hi 👋, I'm <b>Abhishek Tandon</b></h1>
+<h3 align="center">A passionate Java developer from India</h3>
 
-<p align="center">
-  <a href="mailto:tandonabhishek245@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Drop%20me%20a%20message-blue" alt="Email" />
+- 🔭 I’m currently working on **Java, Spring Boot, C Programming, SQL, HTML, and CSS**
+
+- 🌱 I’m currently learning **Java Development and Spring Boot**
+
+- 👯 I’m looking to collaborate on **Software Development**
+
+- 📫 How to reach me: [tandonabhishek245@gmail.com](mailto:tandonabhishek245@gmail.com)
+
+- 📄 Know about my experiences [Resume](https://docs.google.com/document/d/1paNjovSrD4W1RP34llG0CK3gRo0i4FVd/edit?usp=sharing&ouid=104017589111202448870&rtpof=true&sd=true)
+
+- ⚡ Fun fact: 🎸 Would love to know how to play the guitar
+
+<!-- Connect with me -->
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+  <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  </a>
+  <a href="https://www.instagram.com/abhi_tandon25/" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
+  </a>
+  <a href="https://www.hackerrank.com/tandonabhishek21" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
+  </a>
+  <a href="https://leetcode.com/AbhiTandon2617" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
+  </a>
+  <a href="https://auth.geeksforgeeks.org/user/tandon245" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="Geeks for Geeks" height="30" width="40" />
   </a>
 </p>
 
----
-
-### About Me
-
-I'm a dedicated Java developer with a strong passion for building robust, scalable software solutions. My journey in the world of coding has been an exciting one, and I'm always eager to learn and explore new technologies.
-
-- 💼 Currently working on: Java, Spring Boot, C Programming, SQL, HTML, and CSS
-- 🌱 Actively learning: Advanced Java Development and Spring Boot
-- 👯 Open to collaborations on innovative software projects
-- 🎓 Check out my [Resume](https://docs.google.com/document/d/1paNjovSrD4W1RP34llG0CK3gRo0i4FVd/edit?usp=sharing&ouid=104017589111202448870&rtpof=true&sd=true)
-
----
-
-### Connect with Me
-
-You can find me on various platforms. Let's connect and have a meaningful discussion.
-
+<!-- Languages and Tools -->
+<h3 align="left">Languages and Tools:</h3>
 <p align="left">
-  <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn" />
+  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40" />
   </a>
-  <a href="https://www.instagram.com/abhi_tandon25/">
-    <img src="https://img.shields.io/badge/Instagram-Follow-ff69b4" alt="Instagram" />
+  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" />
   </a>
-  <a href="https://www.hackerrank.com/tandonabhishek21">
-    <img src="https://img.shields.io/badge/HackerRank-Follow-brightgreen" alt="HackerRank" />
-  </a>
-  <a href="https://leetcode.com/AbhiTandon2617">
-    <img src="https://img.shields.io/badge/LeetCode-Compete-orange" alt="LeetCode" />
-  </a>
-  <a href="https://auth.geeksforgeeks.org/user/tandon245">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-Follow-yellow" alt="GeeksforGeeks" />
-  </a>
-</p>
-
----
-
-### Languages and Tools
-
-I work with various technologies and tools to bring my ideas to life:
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" />
   <!-- Add more icons for your other tools and languages here -->
 </p>
-
----
-
-### GitHub Stats
-
-Let's take a look at my GitHub stats:
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark" alt="GitHub Stats" />
-</p>
-
----
-
-Thanks for visiting my GitHub profile! Feel free to reach out if you'd like to collaborate or have a chat about technology and development.
