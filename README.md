@@ -2,12 +2,12 @@
 
 <!-- Header Image (You can replace this with a personal banner if desired) -->
 <p align="center">
-  <img src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Professional Software Developer" />
+  <img src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java Developer" />
 </p>
 
 <!-- Introduction -->
 <h1 align="center">Hello, I'm <b>Abhishek Tandon</b></h1>
-<p align="center"><b>Passionate Java Developer from India 🇮🇳</b></p>
+<h3 align="center">🚀 Passionate Java Developer from India 🇮🇳</h3>
 
 <!-- Email Badge -->
 <p align="center">
@@ -23,10 +23,10 @@
 
 I'm a dedicated Java developer with a strong passion for crafting efficient and scalable software solutions. My journey in the world of coding has been both exciting and rewarding, and I'm always eager to explore new technologies.
 
-- 💼 **Currently working with:** Java, Spring Boot, C Programming, HTML, and CSS
-- 🌱 **Actively learning:** Advanced Java Development and Spring Boot
-- 👯 **Open to collaborations on innovative software projects**
-- 📄 **Check out my [Resume](https://docs.google.com/document/d/1paNjovSrD4W1RP34llG0CK3gRo0i4FVd/edit?usp=sharing&ouid=104017589111202448870&rtpof=true&sd=true)**
+- 💼 Currently working with: Java, Spring Boot, C Programming, HTML, and CSS
+- 🌱 Actively learning: Advanced Java Development and Spring Boot
+- 👯 Open to collaborations on innovative software projects
+- 🎓 Check out my [Resume](https://docs.google.com/document/d/1paNjovSrD4W1RP34llG0CK3gRo0i4FVd/edit?usp=sharing&ouid=104017589111202448870&rtpof=true&sd=true)
 
 ---
 
@@ -55,28 +55,19 @@ Let's connect and have a meaningful conversation about technology and developmen
 
 <p align="left">
   <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/">
-    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="LinkedIn" width="30" height="30" />
+    <img src="https://img.shields.io/badge/-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/abhi_tandon25/">
-    <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="Instagram" width="30" height="30" />
+    <img src="https://img.shields.io/badge/-ff69b4?style=for-the-badge&logo=instagram" alt="Instagram" />
   </a>
   <a href="https://www.hackerrank.com/tandonabhishek21">
-    <img src="https://www.vectorlogo.zone/logos/hackerrank/hackerrank-icon.svg" alt="HackerRank" width="30" height="30" />
+    <img src="https://img.shields.io/badge/-brightgreen?style=for-the-badge&logo=hackerrank" alt="HackerRank" />
   </a>
   <a href="https://leetcode.com/AbhiTandon2617">
-    <img src="https://www.vectorlogo.zone/logos/leetcode/leetcode-icon.svg" alt="LeetCode" width="30" height="30" />
+    <img src="https://img.shields.io/badge/-orange?style=for-the-badge&logo=leetcode" alt="LeetCode" />
   </a>
   <a href="https://auth.geeksforgeeks.org/user/tandon245">
-    <img src="https://www.vectorlogo.zone/logos/geeksforgeeks/geeksforgeeks-icon.svg" alt="GeeksforGeeks" width="30" height="30" />
-  </a>
-  <a href="https://www.hackerrank.com/tandonabhishek21">
-    <img src="https://www.vectorlogo.zone/logos/hackerrank/hackerrank-icon.svg" alt="HackerRank" width="30" height="30" />
-  </a>
-  <a href="https://leetcode.com/AbhiTandon2617">
-    <img src="https://www.vectorlogo.zone/logos/leetcode/leetcode-icon.svg" alt="LeetCode" width="30" height="30" />
-  </a>
-  <a href="https://auth.geeksforgeeks.org/user/tandon245">
-    <img src="https://www.vectorlogo.zone/logos/geeksforgeeks/geeksforgeeks-icon.svg" alt="GeeksforGeeks" width="30" height="30" />
+    <img src="https://img.shields.io/badge/-yellow?style=for-the-badge&logo=geeksforgeeks" alt="GeeksforGeeks" />
   </a>
 </p>
 
