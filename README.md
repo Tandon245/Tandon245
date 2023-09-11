@@ -35,30 +35,19 @@ I'm a dedicated Java developer with a strong passion for crafting efficient and 
 
 Here are some of the skills and technologies I've developed and work with:
 
-<!-- Watermark Badges -->
 <p align="left">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Java-%E2%9A%99%EF%B8%8F-orange?style=for-the-badge" alt="Java" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Spring%20Boot-%E2%9A%99%EF%B8%8F-brightgreen?style=for-the-badge" alt="Spring Boot" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/MySQL-%E2%9A%99%EF%B8%8F-blue?style=for-the-badge" alt="MySQL" />
-  </a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Programming" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sql/sql-original.svg" alt="SQL" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40" />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40" />
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40" />
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Framework" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/api-platform/api-platform-original-wordmark.svg" alt="RESTful API Development" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/algorithm/algorithm-original.svg" alt="Algorithms" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/datacamp/datacamp-original.svg" alt="Data Structures" width="40" height="40" />
 </p>
-
-- C Programming
-- SQL
-- HTML
-- CSS
-- AWS
-- Git
-- Postman
-- Spring Framework
-- RESTful API Development
-- Data Structures
-- Algorithms
 
 ---
 
@@ -87,31 +76,25 @@ Let's connect and have a meaningful conversation about technology and developmen
 
 ---
 
-<!-- Languages and Tools Section -->
+<!-- Technologies and Tools Section -->
 ### Technologies and Tools
 
 I work with a wide range of technologies and tools to bring my ideas to life, including:
 
-- Java
-- Spring Boot
-- C Programming
-- SQL
-- HTML
-- CSS
-- AWS
-- Git
-- MySQL
-- Postman
-- Spring Framework
-- RESTful API Development
-- Data Structures
-- Algorithms
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" />
-  <!-- Add more icons for your other tools and languages here -->
-</p>
+- Java ![Java Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg)
+- Spring Boot ![Spring Boot Logo](https://www.vectorlogo.zone/logos/springio/springio-icon.svg)
+- C Programming ![C Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg)
+- SQL ![SQL Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/sql/sql-original.svg)
+- HTML ![HTML Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)
+- CSS ![CSS Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)
+- AWS ![AWS Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg)
+- Git ![Git Logo](https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg)
+- MySQL ![MySQL Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg)
+- Postman ![Postman Logo](https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg)
+- Spring Framework ![Spring Framework Logo](https://www.vectorlogo.zone/logos/springio/springio-icon.svg)
+- RESTful API Development ![API Platform Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/api-platform/api-platform-original-wordmark.svg)
+- Data Structures ![DataCamp Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/datacamp/datacamp-original.svg)
+- Algorithms ![Algorithm Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/algorithm/algorithm-original.svg)
 
 ---
 
