@@ -33,6 +33,5 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=tandon245&show_icons=true&locale=en&layout=compact" alt="tandon245" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&" alt="tandon245" /></p>
- 
+
 
