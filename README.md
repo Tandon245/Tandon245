@@ -7,7 +7,7 @@
 
 <!-- Introduction -->
 <h1 align="center">Hello, I'm <b>Abhishek Tandon</b></h1>
-<h3 align="center">Passionate Java Developer from India 🇮🇳</h3>
+<h3 align="center">🚀 Passionate Java Developer from India 🇮🇳</h3>
 
 <!-- Email Badge -->
 <p align="center">
@@ -35,14 +35,15 @@ I'm a dedicated Java developer with a strong passion for crafting efficient and 
 
 Here are some of the skills and technologies I've developed and work with:
 
-<p align="left">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="30" height="30" />
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="30" height="30" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Programming" width="30" height="30" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="30" height="30" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="30" height="30" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="30" height="30" />
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="30" height="30" />
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="30" height="30" />
-  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Framework" width="30" height="30" />
 </p>
 
 ---
@@ -52,7 +53,7 @@ Here are some of the skills and technologies I've developed and work with:
 
 Let's connect and have a meaningful conversation about technology and development.
 
-<p align="left">
+<p align="center">
   <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn" />
   </a>
@@ -77,7 +78,7 @@ Let's connect and have a meaningful conversation about technology and developmen
 
 I work with a wide range of technologies and tools to bring my ideas to life:
 
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="30" height="30" />
   <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="30" height="30" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Programming" width="30" height="30" />
