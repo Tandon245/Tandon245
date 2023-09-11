@@ -9,9 +9,7 @@
   
 </p>
 
-<p align="center">
-  <img src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java Developer" />
-</p>
+
 <!-- Introduction -->
 <h1 align="center">Hello, I'm <b>Abhishek Tandon</b></h1>
 <h3 align="center">🚀 Passionate Java Developer from India 🇮🇳</h3>
