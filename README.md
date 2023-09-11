@@ -55,19 +55,19 @@ Let's connect and have a meaningful conversation about technology and developmen
 
 <p align="center">
   <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/abhi_tandon25/">
-    <img src="https://img.shields.io/badge/Instagram-Follow-ff69b4" alt="Instagram" />
+    <img src="https://img.shields.io/badge/-ff69b4?style=for-the-badge&logo=instagram" alt="Instagram" />
   </a>
   <a href="https://www.hackerrank.com/tandonabhishek21">
-    <img src="https://img.shields.io/badge/HackerRank-Follow-brightgreen" alt="HackerRank" />
+    <img src="https://img.shields.io/badge/-brightgreen?style=for-the-badge&logo=hackerrank" alt="HackerRank" />
   </a>
   <a href="https://leetcode.com/AbhiTandon2617">
-    <img src="https://img.shields.io/badge/LeetCode-Compete-orange" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/-orange?style=for-the-badge&logo=leetcode" alt="LeetCode" />
   </a>
   <a href="https://auth.geeksforgeeks.org/user/tandon245">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-Follow-yellow" alt="GeeksforGeeks" />
+    <img src="https://img.shields.io/badge/-yellow?style=for-the-badge&logo=geeksforgeeks" alt="GeeksforGeeks" />
   </a>
 </p>
 
