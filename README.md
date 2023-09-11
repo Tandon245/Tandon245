@@ -4,6 +4,9 @@
 <p align="center">
   <img src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java Developer" />
 </p>
+<p> 
+   <img src="https://tenor.com/view/no-sleep-resolume-vj-software-vj-drugs-are-bad-gif-16308505" alt="Java Developer" />
+</p>
 
 <!-- Introduction -->
 <h1 align="center">Hello, I'm <b>Abhishek Tandon</b></h1>
