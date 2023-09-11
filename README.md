@@ -69,6 +69,15 @@ Let's connect and have a meaningful conversation about technology and developmen
   <a href="https://auth.geeksforgeeks.org/user/tandon245">
     <img src="https://www.vectorlogo.zone/logos/geeksforgeeks/geeksforgeeks-icon.svg" alt="GeeksforGeeks" width="30" height="30" />
   </a>
+  <a href="https://www.hackerrank.com/tandonabhishek21">
+    <img src="https://www.vectorlogo.zone/logos/hackerrank/hackerrank-icon.svg" alt="HackerRank" width="30" height="30" />
+  </a>
+  <a href="https://leetcode.com/AbhiTandon2617">
+    <img src="https://www.vectorlogo.zone/logos/leetcode/leetcode-icon.svg" alt="LeetCode" width="30" height="30" />
+  </a>
+  <a href="https://auth.geeksforgeeks.org/user/tandon245">
+    <img src="https://www.vectorlogo.zone/logos/geeksforgeeks/geeksforgeeks-icon.svg" alt="GeeksforGeeks" width="30" height="30" />
+  </a>
 </p>
 
 ---
