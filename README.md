@@ -35,7 +35,7 @@ I'm a dedicated Java developer with a strong passion for crafting efficient and 
 
 Here are some of the skills and technologies I've developed and work with:
 
-<p align="center">
+<p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="30" height="30" />
   <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="30" height="30" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Programming" width="30" height="30" />
@@ -78,7 +78,7 @@ Let's connect and have a meaningful conversation about technology and developmen
 
 I work with a wide range of technologies and tools to bring my ideas to life:
 
-<p align="center">
+<p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="30" height="30" />
   <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="30" height="30" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Programming" width="30" height="30" />
