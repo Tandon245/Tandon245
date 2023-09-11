@@ -53,7 +53,7 @@ Here are some of the skills and technologies I've developed and work with:
 
 Let's connect and have a meaningful conversation about technology and development.
 
-<p align="center">
+<p align="left">
   <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/">
     <img src="https://img.shields.io/badge/-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
