@@ -88,15 +88,6 @@ I work with a wide range of technologies and tools to bring my ideas to life, in
 
 ---
 
-<!-- GitHub Stats Section -->
-### GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tandon245&show_icons=true&theme=dark" alt="GitHub Stats" />
-</p>
-
----
-
 Thank you for visiting my GitHub profile! Feel free to reach out if you'd like to collaborate or discuss anything related to technology and development.
 
 <!-- Fun Fact Section (You can replace this with another interesting fact if desired) -->
