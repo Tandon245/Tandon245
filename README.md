@@ -1,9 +1,7 @@
 <!-- GitHub Profile README -->
 
 <!-- Header Image (You can replace this with a personal banner if desired) -->
-<p align="center">
-  <img src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java Developer" />
-</p>
+
 <p>
   <img src="https://media.tenor.com/2unHkuoMLhcAAAAd/data-code.gif" alt="pic" />
   
