@@ -36,17 +36,17 @@ I'm a dedicated Java developer with a strong passion for crafting efficient and 
 Here are some of the skills and technologies I've developed and work with:
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Programming" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sql/sql-original.svg" alt="SQL" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40" />
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40" />
-  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Framework" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/api-platform/api-platform-original-wordmark.svg" alt="API Platform" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/algorithm/algorithm-original.svg" alt="Algorithms" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/datacamp/datacamp-original.svg" alt="Data Structures" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Programming" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sql/sql-original.svg" alt="SQL" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="30" height="30" />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="30" height="30" />
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="30" height="30" />
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Framework" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/api-platform/api-platform-original-wordmark.svg" alt="API Platform" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/algorithm/algorithm-original.svg" alt="Algorithms" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/datacamp/datacamp-original.svg" alt="Data Structures" width="30" height="30" />
 </p>
 
 ---
@@ -100,8 +100,6 @@ I work with a wide range of technologies and tools to bring my ideas to life, in
 
 <!-- GitHub Stats Section -->
 ### GitHub Stats
-
-Let's take a look at my GitHub stats:
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tandon245&show_icons=true&theme=dark" alt="GitHub Stats" />
