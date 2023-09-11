@@ -44,7 +44,7 @@ Here are some of the skills and technologies I've developed and work with:
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40" />
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40" />
   <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Framework" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/api-platform/api-platform-original-wordmark.svg" alt="RESTful API Development" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/api-platform/api-platform-original-wordmark.svg" alt="API Platform" width="40" height="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/algorithm/algorithm-original.svg" alt="Algorithms" width="40" height="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/datacamp/datacamp-original.svg" alt="Data Structures" width="40" height="40" />
 </p>
@@ -92,7 +92,7 @@ I work with a wide range of technologies and tools to bring my ideas to life, in
 - MySQL ![MySQL Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg)
 - Postman ![Postman Logo](https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg)
 - Spring Framework ![Spring Framework Logo](https://www.vectorlogo.zone/logos/springio/springio-icon.svg)
-- RESTful API Development ![API Platform Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/api-platform/api-platform-original-wordmark.svg)
+- API Platform ![API Platform Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/api-platform/api-platform-original-wordmark.svg)
 - Data Structures ![DataCamp Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/datacamp/datacamp-original.svg)
 - Algorithms ![Algorithm Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/algorithm/algorithm-original.svg)
 
