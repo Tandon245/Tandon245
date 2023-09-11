@@ -30,6 +30,38 @@ I'm a dedicated Java developer with a strong passion for crafting efficient and 
 
 ---
 
+<!-- Skills Section -->
+### Skills
+
+Here are some of the skills and technologies I've developed and work with:
+
+<!-- Watermark Badges -->
+<p align="left">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Java-%E2%9A%99%EF%B8%8F-orange?style=for-the-badge" alt="Java" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Spring%20Boot-%E2%9A%99%EF%B8%8F-brightgreen?style=for-the-badge" alt="Spring Boot" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/MySQL-%E2%9A%99%EF%B8%8F-blue?style=for-the-badge" alt="MySQL" />
+  </a>
+</p>
+
+- C Programming
+- SQL
+- HTML
+- CSS
+- AWS
+- Git
+- Postman
+- Spring Framework
+- RESTful API Development
+- Data Structures
+- Algorithms
+
+---
+
 <!-- Connect with Me Section -->
 ### Connect with Me
 
@@ -56,9 +88,24 @@ Let's connect and have a meaningful conversation about technology and developmen
 ---
 
 <!-- Languages and Tools Section -->
-### Languages and Tools
+### Technologies and Tools
 
-I work with various technologies and tools to bring my ideas to life:
+I work with a wide range of technologies and tools to bring my ideas to life, including:
+
+- Java
+- Spring Boot
+- C Programming
+- SQL
+- HTML
+- CSS
+- AWS
+- Git
+- MySQL
+- Postman
+- Spring Framework
+- RESTful API Development
+- Data Structures
+- Algorithms
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40" />
