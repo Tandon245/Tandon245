@@ -5,7 +5,7 @@
   <img src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Java Developer" />
 </p>
 <p>
-  <img src="https://tenor.com/view/data-code-coding-facts-numbers-gif-27290748",alt="pic"/>
+  <img src="https://media.tenor.com/2unHkuoMLhcAAAAd/data-code.gif",alt="pic"/>
   
 </p>
 
