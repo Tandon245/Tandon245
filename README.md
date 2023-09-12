@@ -91,6 +91,10 @@ I work with a wide range of technologies and tools to bring my ideas to life:
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="30" height="30" />
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="30" height="30" />
 </p>
+<!-- GitHub Streak -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&theme=dark" alt="GitHub Streak" />
+</p>
 
 ---
 
