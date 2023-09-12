@@ -93,9 +93,9 @@ I work with a wide range of technologies and tools to bring my ideas to life:
 </p>
 <!-- GitHub Streak -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tandon245&theme=dark" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&theme=dark" alt="GitHub Streak" />
 </p>
----
+
 
 Thank you for visiting my GitHub profile! Feel free to reach out if you'd like to collaborate or discuss anything related to technology and development.
 
