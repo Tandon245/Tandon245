@@ -9,7 +9,7 @@
 
 
 <!-- Introduction -->
-<h1 align="center">Hello, I'm <b>Abhishek Tandon</b></h1>
+<h1 align="center" style="float: left; padding-right: 20px;">Hello, I'm <b>Abhishek Tandon</b></h1>
 <h3 align="center">🚀 Passionate Java Developer from India 🇮🇳</h3>
 
 <!-- Email Badge -->
