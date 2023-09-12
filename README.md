@@ -92,10 +92,7 @@ I work with a wide range of technologies and tools to bring my ideas to life:
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="30" height="30" />
 </p>
 
-<!-- GitHub Streak -->
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Tandon245" alt="GitHub Streak" />
-</p>
+
 
 
 
