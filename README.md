@@ -1,5 +1,7 @@
 <!-- GitHub Profile README -->
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Tandon245&theme=dark&hide_border=true)](https://git.io/streak-stats)
+
 <!-- Header Image (You can replace this with a personal banner if desired) -->
 
 <p>
