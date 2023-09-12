@@ -1,6 +1,6 @@
 <!-- GitHub Profile README -->
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Tandon245&theme=dark&hide_border=true)](https://git.io/streak-stats)
+
 
 <!-- Header Image (You can replace this with a personal banner if desired) -->
 
@@ -96,7 +96,7 @@ I work with a wide range of technologies and tools to bring my ideas to life:
 
 
 
-
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Tandon245&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
 Thank you for visiting my GitHub profile! Feel free to reach out if you'd like to collaborate or discuss anything related to technology and development.
 
