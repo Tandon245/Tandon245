@@ -94,7 +94,11 @@ I work with a wide range of technologies and tools to bring my ideas to life:
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="30" height="30" />
 </p>
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tandon245&show_icons=true&locale=en&layout=compact" alt="tandon245" /></p>
 
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tandon245&show_icons=true&locale=en" alt="tandon245" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&" alt="tandon245" /></p>
 
 
 Thank you for visiting my GitHub profile! Feel free to reach out if you'd like to collaborate or discuss anything related to technology and development.
