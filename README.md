@@ -93,7 +93,7 @@ I work with a wide range of technologies and tools to bring my ideas to life:
 </p>
 
 
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Tandon245)](https://git.io/streak-stats)]
 
 Thank you for visiting my GitHub profile! Feel free to reach out if you'd like to collaborate or discuss anything related to technology and development.
 
