@@ -99,7 +99,7 @@ I work with a wide range of technologies and tools to bring my ideas to life:
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&" alt="tandon245" /></p>
 
 
-Thank you for visiting my GitHub profile! Feel free to reach out if you'd like to collaborate or discuss anything related to technology and development.
+ <float> Thank you for visiting my GitHub profile! Feel free to reach out if you'd like to collaborate or discuss anything related to technology and development. </float>
 
 <!-- Fun Fact Section (You can replace this with another interesting fact if desired) -->
 <details>
