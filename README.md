@@ -33,7 +33,6 @@ I'm a dedicated Java developer with a strong passion for crafting efficient and 
 - 🎓 Check out my [Resume](https://docs.google.com/document/d/1paNjovSrD4W1RP34llG0CK3gRo0i4FVd/edit?usp=sharing&ouid=104017589111202448870&rtpof=true&sd=true)
 
 ---
-
 <!-- Skills Section -->
 ### Skills
 
