@@ -30,7 +30,8 @@ I'm a dedicated Java developer with a strong passion for crafting efficient and 
 - 💼 Currently working with: Java, Spring Boot, C Programming, HTML, and CSS
 - 🌱 Actively learning: Advanced Java Development and Spring Boot
 - 👯 Open to collaborations on innovative software projects
-- 🎓 Check out my [Resume](https://docs.google.com/document/d/1paNjovSrD4W1RP34llG0CK3gRo0i4FVd/edit?usp=sharing&ouid=104017589111202448870&rtpof=true&sd=true)
+- 🎓 Check out my
+- 
 
 ---
 <!-- Skills Section -->
