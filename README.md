@@ -8,6 +8,9 @@
   <img src="https://media.tenor.com/2unHkuoMLhcAAAAd/data-code.gif" alt="pic" />
   
 </p>
+   <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="er-abhishek-tandon" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/er-abhishek-tandon?trk=profile-badge">Er. Abhishek Tandon</a></div>
+              
+
 
 <!-- Introduction -->
 <h1 align="center" >Hello, I'm Abhishek Tandon</h1>
