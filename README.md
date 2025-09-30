@@ -3,17 +3,10 @@
   <img src="https://media.tenor.com/2unHkuoMLhcAAAAd/data-code.gif" alt="Animated Code Banner" width="100%" />
 </p>
 
-<!-- LinkedIn Badge (Optional) -->
-<p align="center">
-  <a href="https://in.linkedin.com/in/er-abhishek-tandon?trk=profile-badge" target="_blank">
-    <img src="https://img.shields.io/badge/Know%20More%20About%20Me-LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge">
-  </a>
-</p>
-
 ---
 
 <h1 align="center">👋 Hello, I'm Abhishek Tandon</h1>
-<h3 align="center">🚀 Passionate Java & Android Developer from India</h3>
+<h3 align="center">📱 Android & Backend Developer | Kotlin • Flutter • Spring Boot</h3>
 
 ---
 
@@ -28,39 +21,44 @@
 
 ## 🧑‍💻 About Me
 
-I'm a dedicated **Java Developer** with a passion for building efficient, scalable, and user-friendly applications. I’m currently diving deeper into backend development with **Spring Boot**, and expanding into **Android & cross-platform development using Kotlin and Flutter**.
+I'm a passionate **Android Developer** with hands-on experience in building mobile applications using **Kotlin**, **Flutter**, **Dart**, and **Android Studio**. I also work with backend technologies like **Java** and **Spring Boot**, giving me a full-stack development edge.
 
-- 💼 Currently working with: Java, Spring Boot, C, HTML, CSS
-- 📱 Exploring Android Development using Kotlin & Flutter
-- 🌱 Actively learning: Advanced Java, Spring Boot & Mobile Development
-- 🤝 Open to collaborating on impactful software projects
-- 🎓 Tech enthusiast who loves solving real-world problems through code
+- 💼 Currently working as an **Android Developer** using Kotlin, Flutter, Dart & Android Studio  
+- ⚙️ Also working with: Java, Spring Boot, Git, Postman, and AWS  
+- 🌱 Learning advanced mobile architectures (MVVM, Jetpack Compose, Clean Architecture)  
+- 👯 Open to collaborating on mobile apps and backend APIs  
+- 🎯 Goal: Build scalable and beautiful mobile experiences that solve real-world problems  
 
 ---
 
 ## 🛠️ Skills & Technologies
 
-### 💻 Languages, Frameworks & Tools:
-
+### 📱 Mobile Development:
 <p align="left">
-  <!-- Languages -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="30" height="30" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="30" height="30" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="30" height="30" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="30" height="30" />
-
-  <!-- Backend -->
-  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="30" height="30" />
-
-  <!-- Mobile -->
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg" alt="Android" width="30" height="30" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin" width="30" height="30" />
   <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="30" height="30" />
+  <img src="https://cdn.worldvectorlogo.com/logos/dart.svg" alt="Dart" width="30" height="30" />
+</p>
 
-  <!-- DevOps & Tools -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="30" height="30" />
+### 🧑‍💻 Backend Development:
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="30" height="30" />
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="30" height="30" />
+</p>
+
+### 🌐 Web Development:
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="30" height="30" />
+</p>
+
+### ⚙️ Tools & Platforms:
+<p align="left">
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="30" height="30" />
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="30" height="30" />
 </p>
 
 ---
