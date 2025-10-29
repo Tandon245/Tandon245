@@ -1,6 +1,6 @@
 <!-- Banner Section -->
 <p align="center">
-  <img src="https://media.tenor.com/2unHkuoMLhcAAAAd/data-code.gif" alt="Animated Code Banner" width="100%" />
+  <img src="https://tenor.com/view/android-google-evolutions-de-logos-gif-20706081" alt="Animated Android Evolution Banner" width="100%" />
 </p>
 
 <h1 align="center">👋 Hello, I'm Abhishek Tandon</h1>
@@ -16,22 +16,26 @@
 
 ---
 
-## 🧑‍💻 About Me
+## <p align="center">🧑‍💻 About Me</p>
 
-I'm a passionate **Android Developer** with hands-on experience creating mobile apps using **Kotlin**, **Flutter**, **Dart**, and **Android Studio**. My backend expertise in **Java** and **Spring Boot** supports building complete solutions.
+<p align="center">
+I'm a passionate <strong>Android Developer</strong> with hands-on experience creating mobile apps using <strong>Kotlin</strong>, <strong>Flutter</strong>, <strong>Dart</strong>, and <strong>Android Studio</strong>. My backend expertise in <strong>Java</strong> and <strong>Spring Boot</strong> supports building complete solutions.
+</p>
 
-- 💼 Android developer using Kotlin, Flutter, Dart & Android Studio  
-- ⚙️ Also working with Java, Spring Boot, Git, Postman, AWS  
-- 🌱 Actively learning MVVM, Jetpack Compose, Clean Architecture  
-- 👯 Open to mobile & backend collaborations  
-- 🎯 Goal: Building scalable, beautiful apps that solve real-world problems  
+<ul>
+  <li>💼 Android developer using Kotlin, Flutter, Dart & Android Studio</li>
+  <li>⚙️ Also working with Java, Spring Boot, Git, Postman, AWS</li>
+  <li>🌱 Actively learning MVVM, Jetpack Compose, Clean Architecture</li>
+  <li>👯 Open to mobile & backend collaborations</li>
+  <li>🎯 Goal: Building scalable, beautiful apps that solve real-world problems</li>
+</ul>
 
 ---
 
-## 🛠️ Skills & Technologies
+## <p align="center">🛠️ Skills & Technologies</p>
 
 ### 📱 Mobile Development
-<p align="left">
+<p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg" alt="Android" width="32" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin" width="32" />
   <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="32" />
@@ -39,19 +43,19 @@ I'm a passionate **Android Developer** with hands-on experience creating mobile 
 </p>
 
 ### 🧑‍💻 Backend Development
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="32" />
   <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="32" />
 </p>
 
 ### 🌐 Web Development
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="32" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="32" />
 </p>
 
 ### ⚙️ Tools & Platforms
-<p align="left">
+<p align="center">
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="32" />
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="32" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" width="32" />
@@ -60,9 +64,9 @@ I'm a passionate **Android Developer** with hands-on experience creating mobile 
 
 ---
 
-## 🌐 Connect with Me
+## <p align="center">🌐 Connect with Me</p>
 
-<p align="left">
+<p align="center">
   <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
@@ -82,14 +86,14 @@ I'm a passionate **Android Developer** with hands-on experience creating mobile 
 
 ---
 
-## 📊 GitHub Stats
+## <p align="center">📊 GitHub Stats</p>
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tandon245&layout=compact&theme=github_dark" alt="Top Languages" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tandon245&layout=compact&theme=github_dark" alt="Top Languages" />
 </p>
 
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&theme=github-dark" alt="GitHub Streak" />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&theme=github-dark" alt="GitHub Streak" />
 </p>
 
 ---
