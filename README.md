@@ -1,6 +1,6 @@
 <!-- Banner Section -->
 <p align="center">
-  <img src="https://tenor.com/view/android-google-evolutions-de-logos-gif-20706081" alt="Animated Android Evolution Banner" width="100%" />
+  <img src="https://tenor.com/view/android-google-evolutions-de-logos-gif-20706081.gif" alt="Android Evolution Banner" width="100%" />
 </p>
 
 <h1 align="center">👋 Hello, I'm Abhishek Tandon</h1>
@@ -32,9 +32,10 @@ I'm a passionate <strong>Android Developer</strong> with hands-on experience cre
 
 ---
 
-## <p align="center">🛠️ Skills & Technologies</p>
+<!-- Centered Skills Sections -->
+<h2 align="center">🛠️ Skills & Technologies</h2>
 
-### 📱 Mobile Development
+### <p align="center">📱 Mobile Development</p>
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg" alt="Android" width="32" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin" width="32" />
@@ -42,19 +43,19 @@ I'm a passionate <strong>Android Developer</strong> with hands-on experience cre
   <img src="https://cdn.worldvectorlogo.com/logos/dart.svg" alt="Dart" width="32" />
 </p>
 
-### 🧑‍💻 Backend Development
+### <p align="center">🧑‍💻 Backend Development</p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="32" />
   <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="32" />
 </p>
 
-### 🌐 Web Development
+### <p align="center">🌐 Web Development</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="32" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="32" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="32" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="32" />
 </p>
 
-### ⚙️ Tools & Platforms
+### <p align="center">⚙️ Tools & Platforms</p>
 <p align="center">
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="32" />
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="32" />
@@ -64,7 +65,8 @@ I'm a passionate <strong>Android Developer</strong> with hands-on experience cre
 
 ---
 
-## <p align="center">🌐 Connect with Me</p>
+<!-- Centered Connect Section -->
+<h2 align="center">🌐 Connect with Me</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/" target="_blank">
@@ -86,10 +88,11 @@ I'm a passionate <strong>Android Developer</strong> with hands-on experience cre
 
 ---
 
-## <p align="center">📊 GitHub Stats</p>
+<!-- GitHub Stats with Dynamic Streak -->
+<h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tandon245&layout=compact&theme=github_dark" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tandon245&show_icons=true&theme=github_dark&count_private=true" alt="Top Languages" />
 </p>
 
 <p align="center">
