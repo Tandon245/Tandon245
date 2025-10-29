@@ -1,10 +1,10 @@
 <!-- Banner Section -->
 <p align="center">
-  <img src="https://tenor.com/view/android-google-evolutions-de-logos-gif-20706081.gif" alt="Android Evolution Banner" width="100%" />
+  <img src="https://tenor.com/view/android-google-evolutions-de-logos-gif-20706081" alt="Android Evolution Banner" width="100%" />
 </p>
 
-<h1 align="center">👋 Hello, I'm Abhishek Tandon</h1>
-<h3 align="center">📱 Android & Backend Developer | Kotlin • Flutter • Spring Boot</h3>
+# <p align="center">👋 Hello, I'm Abhishek Tandon</p>
+## <p align="center">📱 Android & Backend Developer | Kotlin • Flutter • Spring Boot</p>
 
 ---
 
@@ -32,8 +32,7 @@ I'm a passionate <strong>Android Developer</strong> with hands-on experience cre
 
 ---
 
-<!-- Centered Skills Sections -->
-<h2 align="center">🛠️ Skills & Technologies</h2>
+## <p align="center">🛠️ Skills & Technologies</p>
 
 ### <p align="center">📱 Mobile Development</p>
 <p align="center">
@@ -65,8 +64,7 @@ I'm a passionate <strong>Android Developer</strong> with hands-on experience cre
 
 ---
 
-<!-- Centered Connect Section -->
-<h2 align="center">🌐 Connect with Me</h2>
+## <p align="center">🌐 Connect with Me</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/" target="_blank">
@@ -88,15 +86,10 @@ I'm a passionate <strong>Android Developer</strong> with hands-on experience cre
 
 ---
 
-<!-- GitHub Stats with Dynamic Streak -->
-<h2 align="center">📊 GitHub Stats</h2>
+## <p align="center">📊 GitHub Stats</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tandon245&show_icons=true&theme=github_dark&count_private=true" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&theme=github-dark" alt="GitHub Streak" />
 </p>
 
 ---
