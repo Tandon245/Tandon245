@@ -1,6 +1,6 @@
 <!-- Banner Section -->
 <p align="center">
-  <img src="https://tenor.com/view/android-google-evolutions-de-logos-gif-20706081" alt="Android Evolution Banner" width="100%" />
+  <img src="https://tenor.com/view/android-google-evolutions-de-logos-gif-20706081.gif" alt="Android Evolution Banner" width="100%" />
 </p>
 
 # <p align="center">👋 Hello, I'm Abhishek Tandon</p>
