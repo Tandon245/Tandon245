@@ -1,4 +1,4 @@
-<!-- Banner -->
+
 <p align="center">
   <img src="https://tenor.com/view/android-google-evolutions-de-logos-gif-20706081.gif" alt="Android Banner" width="100%" />
 </p>
