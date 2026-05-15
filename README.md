@@ -1,30 +1,19 @@
 <div align="center">
-
-<!-- Animated Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Abhishek%20Tandon&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" />
 
-<!-- Animated Typing SVG -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Senior+Android+Developer+%F0%9F%9A%80;Kotlin+%E2%80%A2+Jetpack+Compose+%E2%80%A2+MVVM+%E2%80%A2+Clean+Architecture;3%2B+Years+Building+Production-Grade+Apps+%F0%9F%92%BB" alt="Typing SVG" /></a>
-
-<!-- Animated Badges -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Senior+Android+Developer+%F0%9F%9A%80;Kotlin+%7C+Jetpack+Compose+%7C+MVVM;BLE+Integration+%7C+Clean+Architecture;3%2B+Years+of+Production+Experience+%F0%9F%92%BB" alt="Typing SVG" /></a>
 <p>
   <img src="https://img.shields.io/badge/Focus-Android%20Development-00D9FF?style=for-the-badge&logo=android&logoColor=white&labelColor=3DDC84&animation=pulse" />
   <img src="https://img.shields.io/badge/Specialization-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/Experience-3%2B%20Years-FF6B6B?style=for-the-badge&logo=clockify&logoColor=white" />
   <img src="https://img.shields.io/badge/Location-Noida%2C%20India-FF9933?style=for-the-badge&logo=google-maps&logoColor=white" />
 </p>
-
-<!-- Profile Views Counter with Animation -->
 <img src="https://komarev.com/ghpvc/?username=tandon245&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
-
-<!-- Wave Animation -->
 <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="wave animation" width="100%"/>
 
 </div>
 
 ---
-
-<!-- About Me Section with Animated GIF -->
 <div align="center">
   
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> **About Me**
@@ -136,8 +125,6 @@ Cloud & Services:
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> **Tech Stack**
 
 </div>
-
-<!-- Animated Mobile Development Section -->
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="25" /> **Mobile Development**
 
 <p align="center">
@@ -160,8 +147,6 @@ Cloud & Services:
     <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="Android Studio"/>
   </a>
 </p>
-
-<!-- Animated Backend Development Section -->
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="25" /> **Backend Development**
 
 <p align="center">
@@ -181,8 +166,6 @@ Cloud & Services:
     <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
   </a>
 </p>
-
-<!-- Animated Firebase & Cloud Section -->
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="25" /> **Firebase & Cloud Services**
 
 <p align="center">
@@ -203,7 +186,6 @@ Cloud & Services:
   </a>
 </p>
 
-<!-- Animated Tools & Platforms Section -->
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="25" /> **Tools & Platforms**
 
 <p align="center">
@@ -226,8 +208,6 @@ Cloud & Services:
     <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
   </a>
 </p>
-
-<!-- Animated Architecture & Patterns Section -->
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Building%20Construction.png" width="25" /> **Architecture & Design Patterns**
 
 <p align="center">
@@ -249,7 +229,6 @@ Cloud & Services:
 
 </div>
 
-<!-- Project Cards with Animations -->
 <table align="center">
 <tr>
 <td width="50%">
@@ -361,20 +340,15 @@ Cloud & Services:
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="30" /> **GitHub Statistics**
 
 </div>
-
-<!-- Animated GitHub Stats -->
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tandon245&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&ring_color=7F52FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&theme=tokyonight&hide_border=true&ring=7F52FF&fire=FF6B6B&currStreakLabel=00D9FF&background=0D1117" alt="GitHub Streak" />
 </p>
 
-<!-- Top Languages with Animation -->
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tandon245&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F52FF&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
   <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tandon245&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=7F52FF&line=00D9FF&point=FFFFFF" alt="Contribution Graph" />
 </p>
-
-<!-- Trophies with Animation -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=tandon245&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
@@ -387,7 +361,6 @@ Cloud & Services:
 
 </div>
 
-<!-- Animated Timeline -->
 <table align="center">
 <tr>
 <td align="center" width="20%">
@@ -484,7 +457,6 @@ Enterprise-level Android applications and backend systems using **Kotlin**, **Ja
   </a>
 </p>
 
-<!-- LeetCode Stats Card -->
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/AbhiTandon2617?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode Stats" />
 </p>
@@ -557,15 +529,11 @@ Enterprise-level Android applications and backend systems using **Kotlin**, **Ja
 ### 💡 **"Clean Code, Scalable Apps, Seamless Experiences"** 💡
 
 </div>
-
-<!-- Snake Animation -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 
 ---
-
-<!-- Quote Animation -->
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do&author=Steve%20Jobs" alt="Quote" />
 </div>
