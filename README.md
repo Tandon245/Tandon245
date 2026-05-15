@@ -31,45 +31,66 @@
 
 </div>
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<img align="right" alt="Android Development" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-```kotlin
-data class AndroidDeveloper(
-    val name: String = "Abhishek Tandon",
-    val role: String = "Senior Android Developer",
-    val company: String = "Vidursoft",
-    val location: String = "Noida, Uttar Pradesh, India",
-    val experience: String = "3+ Years",
-    val education: String = "B.Tech - RGPV Bhopal (CGPA: 7.24)",
-    
-    val coreSkills: List<String> = listOf(
-        "Kotlin", "Jetpack Compose", "MVVM",
-        "Clean Architecture", "BLE SDK Integration",
-        "Firebase", "REST APIs", "Coroutines/Flow"
-    ),
-    
-    val expertise: Map<String, String> = mapOf(
-        "Mobile" to "Android (Kotlin, Jetpack Compose, XML)",
-        "Backend" to "Java, Spring Boot, MySQL",
-        "Cloud" to "Firebase Suite, FCM, Crashlytics",
-        "Architecture" to "MVVM, Clean Architecture, Repository Pattern",
-        "Hardware" to "BLE Device Integration & SDK Development"
-    ),
-    
-    val currentFocus: List<String> = listOf(
-        "🏗️ Building scalable fintech & health-tech Android apps",
-        "📱 Mastering Jetpack Compose & Material Design 3",
-        "🔧 BLE hardware integration for IoT devices",
-        "🚀 CI/CD pipeline optimization for Play Store releases",
-        "🎯 Crash-resilient, production-grade applications"
-    )
-)
+<table>
+<tr>
+<td>
 
-fun main() {
-    val developer = AndroidDeveloper()
-    println("${developer.name} is passionate about crafting seamless Android experiences! 🚀")
-}
+**👨‍💻 WHO AM I?**
+
+```yaml
+name: Abhishek Tandon
+role: Senior Android Developer
+company: Vidursoft
+location: Noida, Uttar Pradesh, India
+experience: 3+ Years
+education: B.Tech - RGPV Bhopal (CGPA 7.24)
 ```
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**🎯 CORE EXPERTISE**
+
+```yaml
+Mobile Development:
+  - Kotlin & Java
+  - Jetpack Compose
+  - MVVM Clean Architecture
+  - BLE SDK Integration
+  
+Backend Development:
+  - Spring Boot
+  - REST APIs
+  - MySQL Database
+  
+Cloud & Services:
+  - Firebase Suite
+  - FCM Notifications
+  - Crashlytics
+```
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**🚀 CURRENT FOCUS**
+
+- 🏗️ Building scalable fintech & health-tech Android apps
+- 📱 Mastering Jetpack Compose & Material Design 3
+- 🔧 BLE hardware integration for IoT devices
+- ⚡ CI/CD pipeline optimization for Play Store releases
+- 🎯 Crash-resilient, production-grade applications
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
