@@ -34,7 +34,7 @@ role: Senior Android Developer
 company: Vidursoft
 location: Noida, Uttar Pradesh, India
 experience: 3+ Years
-education: B.Tech - RGPV Bhopal (CGPA 7.24)
+education: B.Tech - RGPV Bhopal
 ```
 
 </td>
