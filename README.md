@@ -1,457 +1,549 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0b0f14" />
-  <meta name="description" content="Abhishek Tandon — Android Developer specializing in Kotlin, Jetpack Compose, MVVM, Clean Architecture, and BLE integrations." />
-  <title>Abhishek Tandon | Android Developer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #0b0f14;
-      --panel: #111821;
-      --panel-2: #151e29;
-      --text: #e8eef7;
-      --muted: #a5b1c2;
-      --line: #273241;
-      --cyan: #00d9ff;
-      --blue: #4776e6;
-      --purple: #9b5de5;
-      --green: #3ddc84;
-      --orange: #ff9f43;
-      --radius: 18px;
-      --max-width: 1080px;
-      --shadow: 0 18px 48px rgba(0, 0, 0, .24);
-    }
+<div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Abhishek%20Tandon&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" />
 
-    *, *::before, *::after { box-sizing: border-box; }
-    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
-    body {
-      margin: 0;
-      background:
-        radial-gradient(ellipse at 12% 0%, rgba(71, 118, 230, .13), transparent 34rem),
-        radial-gradient(ellipse at 92% 10%, rgba(155, 93, 229, .10), transparent 32rem),
-        var(--bg);
-      color: var(--text);
-      font: 16px/1.7 Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      overflow-x: hidden;
-    }
-    a { color: inherit; text-decoration: none; }
-    img { max-width: 100%; display: block; }
-    button, a { -webkit-tap-highlight-color: transparent; }
-    .container { width: min(var(--max-width), calc(100% - 40px)); margin-inline: auto; }
-    .mono { font-family: "JetBrains Mono", monospace; }
-    .muted { color: var(--muted); }
-    .eyebrow {
-      display: inline-flex; align-items: center; gap: 9px;
-      color: var(--cyan); font: 600 .78rem "JetBrains Mono", monospace;
-      letter-spacing: .12em; text-transform: uppercase;
-    }
-    .eyebrow::before { content: ""; width: 25px; height: 2px; background: var(--cyan); }
-    h1, h2, h3, p { margin-top: 0; }
-    h1 { font-size: clamp(2.6rem, 7vw, 5.3rem); line-height: 1.04; letter-spacing: -.065em; margin: 20px 0; }
-    h2 { font-size: clamp(1.8rem, 4vw, 2.65rem); line-height: 1.15; letter-spacing: -.045em; margin-bottom: 14px; }
-    h3 { line-height: 1.3; }
-    .gradient-text {
-      background: linear-gradient(100deg, var(--cyan), #8a8cff 58%, #c77dff);
-      -webkit-background-clip: text; background-clip: text; color: transparent;
-    }
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Senior+Android+Developer+%F0%9F%9A%80;Kotlin+%7C+Jetpack+Compose+%7C+MVVM;BLE+Integration+%7C+Clean+Architecture;3%2B+Years+of+Production+Experience+%F0%9F%92%BB" alt="Typing SVG" /></a>
+<p>
+  <img src="https://img.shields.io/badge/Focus-Android%20Development-00D9FF?style=for-the-badge&logo=android&logoColor=white&labelColor=3DDC84&animation=pulse" />
+  <img src="https://img.shields.io/badge/Specialization-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Experience-3%2B%20Years-FF6B6B?style=for-the-badge&logo=clockify&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Noida%2C%20India-FF9933?style=for-the-badge&logo=google-maps&logoColor=white" />
+</p>
+<img src="https://komarev.com/ghpvc/?username=tandon245&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="wave animation" width="100%"/>
 
-    /* Header and navigation */
-    .site-header {
-      position: sticky; top: 0; z-index: 50;
-      background: rgba(11, 15, 20, .82); backdrop-filter: blur(18px);
-      border-bottom: 1px solid rgba(165, 177, 194, .14);
-    }
-    .nav {
-      min-height: 70px; display: flex; align-items: center;
-      justify-content: space-between; gap: 24px;
-    }
-    .brand { display: inline-flex; align-items: center; gap: 11px; font-weight: 800; letter-spacing: -.03em; white-space: nowrap; }
-    .brand-mark {
-      display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px;
-      color: #061017; background: linear-gradient(135deg, var(--cyan), #8a8cff);
-      font: 800 1rem "JetBrains Mono", monospace; box-shadow: 0 0 25px rgba(0, 217, 255, .18);
-    }
-    .nav-links { display: flex; align-items: center; gap: 5px; list-style: none; margin: 0; padding: 0; }
-    .nav-links a { display: block; padding: 10px 12px; border-radius: 10px; color: var(--muted); font-size: .88rem; transition: color .2s, background .2s; }
-    .nav-links a:hover, .nav-links a:focus-visible { color: var(--text); background: var(--panel-2); outline: none; }
-    .nav-cta { border: 1px solid rgba(0, 217, 255, .42); color: var(--cyan) !important; }
-    .menu-toggle {
-      display: none; width: 42px; height: 42px; border: 1px solid var(--line);
-      border-radius: 12px; background: var(--panel); color: var(--text); cursor: pointer; font-size: 1.2rem;
-    }
+</div>
 
-    /* Hero */
-    .hero { padding: 92px 0 66px; }
-    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(260px, .65fr); align-items: center; gap: 52px; }
-    .availability { display: inline-flex; align-items: center; gap: 9px; padding: 8px 12px; border: 1px solid rgba(61, 220, 132, .24); background: rgba(61, 220, 132, .07); border-radius: 999px; color: #9af0bc; font-size: .82rem; }
-    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 5px rgba(61, 220, 132, .12); }
-    .hero-copy { max-width: 720px; color: var(--muted); font-size: 1.08rem; }
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
-    .btn {
-      display: inline-flex; justify-content: center; align-items: center; gap: 10px;
-      min-height: 46px; padding: 0 18px; border: 1px solid var(--line); border-radius: 12px;
-      font-weight: 700; font-size: .9rem; transition: transform .2s, border-color .2s, background .2s;
-    }
-    .btn:hover { transform: translateY(-3px); border-color: var(--cyan); }
-    .btn-primary { background: linear-gradient(100deg, var(--cyan), #8a8cff); border-color: transparent; color: #061017; }
-    .btn-secondary { background: var(--panel); }
-    .hero-card {
-      position: relative; overflow: hidden; padding: 28px; border: 1px solid var(--line);
-      border-radius: 24px; background: linear-gradient(150deg, rgba(21, 30, 41, .96), rgba(12, 18, 26, .96)); box-shadow: var(--shadow);
-    }
-    .hero-card::before { content: ""; position: absolute; width: 180px; height: 180px; right: -80px; top: -90px; background: var(--purple); filter: blur(85px); opacity: .28; }
-    .code-window { position: relative; font: .82rem/1.9 "JetBrains Mono", monospace; color: var(--muted); }
-    .window-dots { display: flex; gap: 7px; margin-bottom: 22px; }
-    .window-dots span { width: 9px; height: 9px; border-radius: 50%; background: #ff6b6b; }
-    .window-dots span:nth-child(2) { background: #ffd166; }
-    .window-dots span:nth-child(3) { background: #3ddc84; }
-    .code-key { color: #c792ea; }
-    .code-value { color: #c3e88d; }
-    .code-string { color: #f78c6c; }
-    .hero-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 24px; }
-    .stat { padding: 14px 10px; border-radius: 13px; background: rgba(255, 255, 255, .035); border: 1px solid rgba(255, 255, 255, .06); }
-    .stat strong { display: block; font-size: 1.2rem; }
-    .stat span { display: block; color: var(--muted); font-size: .72rem; }
+---
+<div align="center">
+  
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> **About Me**
 
-    /* Shared sections */
-    section { padding: 76px 0; }
-    .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; margin-bottom: 30px; }
-    .section-heading p { max-width: 570px; margin-bottom: 0; color: var(--muted); }
-    .panel { background: rgba(17, 24, 33, .8); border: 1px solid var(--line); border-radius: var(--radius); }
-    .about-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 20px; }
-    .about-card { padding: 28px; }
-    .about-card p { color: var(--muted); }
-    .check-list { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 12px; }
-    .check-list li { display: flex; gap: 11px; align-items: flex-start; color: var(--muted); }
-    .check-list li::before { content: "✓"; color: var(--green); font-weight: 800; }
-    .focus-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-    .focus-item { padding: 18px; background: var(--panel-2); border-radius: 14px; border: 1px solid rgba(255,255,255,.045); }
-    .focus-item strong { display: block; margin-bottom: 5px; }
-    .focus-item span { color: var(--muted); font-size: .86rem; }
+</div>
 
-    /* Skills */
-    .skill-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-    .skill-card { padding: 24px; }
-    .skill-card h3 { margin: 0 0 16px; }
-    .chips { display: flex; flex-wrap: wrap; gap: 9px; }
-    .chip { display: inline-flex; padding: 8px 11px; border: 1px solid #2b394a; border-radius: 9px; background: #141d27; color: #cbd5e1; font-size: .82rem; }
+<img align="right" alt="Android Development" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-    /* Projects */
-    .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
-    .project-card { overflow: hidden; display: flex; flex-direction: column; padding: 25px; transition: transform .22s, border-color .22s; }
-    .project-card:hover { transform: translateY(-5px); border-color: rgba(0, 217, 255, .45); }
-    .project-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 15px; }
-    .project-icon { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: linear-gradient(135deg, rgba(0,217,255,.18), rgba(155,93,229,.18)); font-size: 1.45rem; }
-    .project-type { color: var(--cyan); font: .72rem "JetBrains Mono", monospace; text-transform: uppercase; letter-spacing: .08em; }
-    .project-card h3 { margin-bottom: 9px; font-size: 1.25rem; }
-    .project-card p { color: var(--muted); font-size: .92rem; }
-    .project-card .chips { margin: 5px 0 22px; }
-    .project-card .chip { font-size: .73rem; padding: 6px 8px; }
-    .project-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; }
-    .text-link { color: var(--cyan); font-size: .86rem; font-weight: 700; }
-    .text-link:hover { text-decoration: underline; }
+<table>
+<tr>
+<td>
 
-    /* Experience and education */
-    .timeline { display: grid; gap: 16px; }
-    .timeline-item { position: relative; padding: 25px 27px 25px 32px; }
-    .timeline-item::before { content: ""; position: absolute; left: 0; top: 27px; bottom: 27px; width: 3px; border-radius: 4px; background: linear-gradient(var(--cyan), var(--purple)); }
-    .timeline-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
-    .timeline-top h3 { margin: 0 0 5px; }
-    .timeline-date { color: var(--cyan); font: .78rem "JetBrains Mono", monospace; white-space: nowrap; }
-    .timeline-item p { margin: 8px 0 0; color: var(--muted); }
-    .timeline-item ul { margin-bottom: 0; color: var(--muted); padding-left: 20px; }
+**👨‍💻 WHO AM I?**
 
-    /* Connect and footer */
-    .contact-panel { padding: clamp(25px, 5vw, 48px); text-align: center; background: radial-gradient(ellipse at top, rgba(71,118,230,.16), transparent 65%), var(--panel); }
-    .contact-panel p { max-width: 590px; margin: 0 auto 24px; color: var(--muted); }
-    .social-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-    footer { padding: 28px 0 38px; border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
-    .footer-inner { display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; }
-    .back-top { color: var(--cyan); }
+```yaml
+name: Abhishek Tandon
+role: Senior Android Developer
+company: Vidursoft
+location: Noida, Uttar Pradesh, India
+experience: 3+ Years
+education: B.Tech - RGPV Bhopal
+```
 
-    @media (max-width: 900px) {
-      .nav-links { gap: 0; }
-      .nav-links a { padding-inline: 8px; font-size: .82rem; }
-      .hero-grid { grid-template-columns: 1fr; gap: 30px; }
-      .hero-card { max-width: 560px; }
-      .about-grid { grid-template-columns: 1fr; }
-    }
-    @media (max-width: 700px) {
-      .container { width: min(100% - 28px, var(--max-width)); }
-      .nav { min-height: 64px; }
-      .menu-toggle { display: inline-grid; place-items: center; }
-      .nav-links {
-        display: none; position: absolute; top: 64px; left: 14px; right: 14px;
-        padding: 10px; border: 1px solid var(--line); border-radius: 15px;
-        background: rgba(17, 24, 33, .98); box-shadow: var(--shadow);
-        align-items: stretch; flex-direction: column;
-      }
-      .nav-links.open { display: flex; }
-      .nav-links a { padding: 12px; font-size: .92rem; }
-      .hero { padding: 65px 0 38px; }
-      section { padding: 55px 0; }
-      .section-heading { display: block; }
-      .section-heading p { margin-top: 12px; }
-      .skill-groups, .project-grid { grid-template-columns: 1fr; }
-      .timeline-top { display: block; }
-      .timeline-date { display: inline-block; margin-top: 7px; }
-      .hero-stats { gap: 7px; }
-      .stat strong { font-size: 1.05rem; }
-    }
-    @media (max-width: 390px) {
-      .brand { font-size: .9rem; }
-      .brand-mark { width: 34px; height: 34px; }
-      .hero-stats { grid-template-columns: 1fr; }
-      .focus-grid { grid-template-columns: 1fr; }
-      .btn { width: 100%; }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
-    }
-  </style>
-</head>
-<body>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#home" aria-label="Abhishek Tandon home">
-        <span class="brand-mark">AT</span>
-        <span>Abhishek <span class="gradient-text">Tandon</span></span>
-      </a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Tech Stack</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a class="nav-cta" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+</td>
+</tr>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="container hero-grid">
-        <div>
-          <span class="availability"><span class="status-dot"></span> Open to new opportunities</span>
-          <p class="eyebrow" style="margin-top:26px">Android Developer · Noida, India</p>
-          <h1>Building Android apps that feel <span class="gradient-text">fast, useful & reliable.</span></h1>
-          <p class="hero-copy">I'm Abhishek Tandon, an Android Developer focused on Kotlin, Jetpack Compose, MVVM, and Clean Architecture. I build maintainable production apps and enjoy solving challenging integration problems across APIs, Firebase, and Bluetooth-connected devices.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
-            <a class="btn btn-secondary" href="mailto:tandonabhishek245@gmail.com">Email me</a>
-          </div>
-          <div class="hero-stats">
-            <div class="stat"><strong>3+ years</strong><span>Development experience</span></div>
-            <div class="stat"><strong>Android</strong><span>Primary specialization</span></div>
-            <div class="stat"><strong>Production</strong><span>Real-world applications</span></div>
-          </div>
-        </div>
+<tr>
+<td>
 
-        <aside class="hero-card" aria-label="Developer profile card">
-          <div class="code-window">
-            <div class="window-dots"><span></span><span></span><span></span></div>
-            <div><span class="code-key">class</span> <span class="code-value">AndroidDeveloper</span> {</div>
-            <div>&nbsp;&nbsp;<span class="code-key">val</span> name = <span class="code-string">"Abhishek"</span></div>
-            <div>&nbsp;&nbsp;<span class="code-key">val</span> language = <span class="code-string">"Kotlin"</span></div>
-            <div>&nbsp;&nbsp;<span class="code-key">val</span> UI = <span class="code-string">"Jetpack Compose"</span></div>
-            <div>&nbsp;&nbsp;<span class="code-key">val</span> architecture = <span class="code-string">"Clean + MVVM"</span></div>
-            <div>&nbsp;&nbsp;<span class="code-key">val</span> mindset = <span class="code-string">"Build. Improve. Repeat."</span></div>
-            <div>}</div>
-            <br />
-            <div><span class="code-key">// Turning ideas into dependable apps.</span></div>
-          </div>
-        </aside>
-      </div>
-    </section>
+**🎯 CORE EXPERTISE**
 
-    <section id="about">
-      <div class="container">
-        <div class="section-heading">
-          <div><span class="eyebrow">A little about me</span><h2>Engineering with <span class="gradient-text">purpose.</span></h2></div>
-          <p>I care about the details behind a good app: clear architecture, responsive UI, dependable data flows, and code that's easy to maintain.</p>
-        </div>
-        <div class="about-grid">
-          <article class="panel about-card">
-            <h3>👋 Hello, I'm Abhishek</h3>
-            <p>I develop Android applications with a focus on clean structure and practical user experiences. My day-to-day work includes building UI, connecting APIs, managing asynchronous tasks, debugging production issues, and integrating third-party SDKs.</p>
-            <p>My preferred approach is to keep responsibilities separated, make state predictable, and write code that another developer can understand and extend.</p>
-            <ul class="check-list">
-              <li>Kotlin, Java, and Jetpack Compose</li>
-              <li>MVVM, Clean Architecture, and Repository Pattern</li>
-              <li>REST APIs, Firebase, and local persistence</li>
-              <li>BLE device integration and release support</li>
-            </ul>
-          </article>
-          <div class="focus-grid">
-            <div class="focus-item"><strong>📐 Architecture</strong><span>Maintainable, testable, scalable app structure.</span></div>
-            <div class="focus-item"><strong>🎨 UI Engineering</strong><span>Compose interfaces with thoughtful state handling.</span></div>
-            <div class="focus-item"><strong>🔌 Integrations</strong><span>APIs, Firebase, BLE, and third-party SDKs.</span></div>
-            <div class="focus-item"><strong>🛠️ Reliability</strong><span>Debugging, edge cases, and production readiness.</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
+```yaml
+Mobile Development:
+  - Kotlin & Java
+  - Jetpack Compose
+  - MVVM Clean Architecture
+  - BLE SDK Integration
+  
+Backend Development:
+  - Spring Boot
+  - REST APIs
+  - MySQL Database
+  
+Cloud & Services:
+  - Firebase Suite
+  - FCM Notifications
+  - Crashlytics
+```
 
-    <section id="skills">
-      <div class="container">
-        <div class="section-heading">
-          <div><span class="eyebrow">Tools of the trade</span><h2>Tech <span class="gradient-text">stack.</span></h2></div>
-          <p>Technologies and patterns I use to build and support mobile applications.</p>
-        </div>
-        <div class="skill-groups">
-          <article class="panel skill-card">
-            <h3>📱 Android & UI</h3>
-            <div class="chips"><span class="chip">Kotlin</span><span class="chip">Java</span><span class="chip">Android SDK</span><span class="chip">Jetpack Compose</span><span class="chip">XML Views</span><span class="chip">Material Design</span></div>
-          </article>
-          <article class="panel skill-card">
-            <h3>🏗️ Architecture & Libraries</h3>
-            <div class="chips"><span class="chip">MVVM</span><span class="chip">Clean Architecture</span><span class="chip">Repository Pattern</span><span class="chip">Coroutines</span><span class="chip">Flow</span><span class="chip">Retrofit</span><span class="chip">Room</span></div>
-          </article>
-          <article class="panel skill-card">
-            <h3>☁️ Backend & Cloud</h3>
-            <div class="chips"><span class="chip">REST APIs</span><span class="chip">Firebase Auth</span><span class="chip">Firestore</span><span class="chip">FCM</span><span class="chip">Crashlytics</span><span class="chip">Spring Boot</span><span class="chip">MySQL</span></div>
-          </article>
-          <article class="panel skill-card">
-            <h3>🧰 Tools & Other</h3>
-            <div class="chips"><span class="chip">Android Studio</span><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Postman</span><span class="chip">BLE</span><span class="chip">Flutter</span><span class="chip">Google Play Console</span></div>
-          </article>
-        </div>
-      </div>
-    </section>
+</td>
+</tr>
 
-    <section id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <div><span class="eyebrow">Selected work</span><h2>Projects in the <span class="gradient-text">real world.</span></h2></div>
-          <p>A selection of applications and domains I've worked on. Open the app links to verify current public listings.</p>
-        </div>
-        <div class="project-grid">
-          <article class="panel project-card">
-            <div class="project-top"><span class="project-icon">🏃</span><span class="project-type">Health-tech · BLE</span></div>
-            <h3>Brio — Smart Fitness</h3>
-            <p>A fitness application connecting with Bluetooth-enabled smart devices and supporting fitness data workflows.</p>
-            <div class="chips"><span class="chip">Kotlin</span><span class="chip">Jetpack Compose</span><span class="chip">BLE SDK</span><span class="chip">MVVM</span></div>
-            <div class="project-links"><a class="text-link" href="https://play.google.com/store/apps/details?id=sa.com.brio.android" target="_blank" rel="noopener noreferrer">View on Google Play ↗</a></div>
-          </article>
-          <article class="panel project-card">
-            <div class="project-top"><span class="project-icon">💳</span><span class="project-type">Fintech · Payments</span></div>
-            <h3>MoConnect</h3>
-            <p>A fintech mobile experience for airtime top-ups, international recharges, utility payments, and wallet-related workflows.</p>
-            <div class="chips"><span class="chip">Kotlin</span><span class="chip">Retrofit</span><span class="chip">Coroutines</span><span class="chip">Firebase</span></div>
-            <div class="project-links"><a class="text-link" href="https://play.google.com/store/apps/details?id=za.co.moconnect.android.customer" target="_blank" rel="noopener noreferrer">View on Google Play ↗</a></div>
-          </article>
-          <article class="panel project-card">
-            <div class="project-top"><span class="project-icon">📲</span><span class="project-type">Telecom · Mobile</span></div>
-            <h3>EasiApp</h3>
-            <p>A telecom application supporting SIM registration workflows and mobile utility services.</p>
-            <div class="chips"><span class="chip">Android SDK</span><span class="chip">Kotlin</span><span class="chip">REST APIs</span><span class="chip">Integrations</span></div>
-            <div class="project-links"><a class="text-link" href="https://play.google.com/store/apps/details?id=za.co.easicall.rica" target="_blank" rel="noopener noreferrer">View on Google Play ↗</a></div>
-          </article>
-          <article class="panel project-card">
-            <div class="project-top"><span class="project-icon">💙</span><span class="project-type">Social · Android</span></div>
-            <h3>Selective Matchmaker</h3>
-            <p>A matchmaking application with authentication, search, filtering, and user-focused application flows.</p>
-            <div class="chips"><span class="chip">Kotlin</span><span class="chip">MVVM</span><span class="chip">Firebase Auth</span><span class="chip">REST APIs</span></div>
-            <div class="project-links"><a class="text-link" href="https://play.google.com/store/apps/details?id=com.selectivematchmaker.android" target="_blank" rel="noopener noreferrer">View on Google Play ↗</a></div>
-          </article>
-        </div>
-      </div>
-    </section>
+<tr>
+<td>
 
-    <section id="experience">
-      <div class="container">
-        <div class="section-heading">
-          <div><span class="eyebrow">Career journey</span><h2>Professional <span class="gradient-text">experience.</span></h2></div>
-          <p>Experience building, integrating, and maintaining mobile applications across different product domains.</p>
-        </div>
-        <div class="timeline">
-          <article class="panel timeline-item">
-            <div class="timeline-top"><div><h3>Android Developer · Vidursoft</h3><span class="muted">Android development and production support</span></div><span class="timeline-date">Oct 2024 — Present</span></div>
-            <ul>
-              <li>Develop and maintain Android application features using Kotlin and Jetpack Compose.</li>
-              <li>Apply MVVM and Clean Architecture to keep application code modular and maintainable.</li>
-              <li>Integrate REST APIs, Firebase services, and Bluetooth-enabled hardware SDKs.</li>
-              <li>Investigate issues, improve reliability, and support release workflows.</li>
-            </ul>
-          </article>
-          <article class="panel timeline-item">
-            <div class="timeline-top"><div><h3>Java / Android Developer · Monoprabal Engineering</h3><span class="muted">Mobile development and backend integration</span></div><span class="timeline-date">Mar 2023 — Sep 2024</span></div>
-            <ul>
-              <li>Built and maintained Android features using Kotlin and Java.</li>
-              <li>Integrated REST APIs and worked with Spring Boot services and MySQL-backed systems.</li>
-              <li>Implemented Firebase Realtime Database and Firebase Cloud Messaging workflows.</li>
-              <li>Contributed to UI development, debugging, and application maintenance.</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
+**🚀 CURRENT FOCUS**
 
-    <section id="education">
-      <div class="container">
-        <div class="section-heading">
-          <div><span class="eyebrow">Learning foundation</span><h2>Education.</h2></div>
-        </div>
-        <article class="panel timeline-item">
-          <div class="timeline-top"><div><h3>Bachelor of Technology (B.Tech)</h3><span class="muted">Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal</span></div><span class="timeline-date">2017 — 2021</span></div>
-          <p>CGPA: 7.24</p>
-        </article>
-      </div>
-    </section>
+- 🏗️ Building scalable fintech & health-tech Android apps
+- 📱 Mastering Jetpack Compose & Material Design 3
+- 🔧 BLE hardware integration for IoT devices
+- ⚡ CI/CD pipeline optimization for Play Store releases
+- 🎯 Crash-resilient, production-grade applications
 
-    <section id="contact">
-      <div class="container">
-        <div class="panel contact-panel">
-          <span class="eyebrow">Have a project in mind?</span>
-          <h2>Let's build something <span class="gradient-text">great.</span></h2>
-          <p>I'm always interested in connecting with developers, teams, and people building useful products. Reach out through any of the links below.</p>
-          <div class="social-links">
-            <a class="btn btn-primary" href="mailto:tandonabhishek245@gmail.com">✉ Email me</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-            <a class="btn btn-secondary" href="https://github.com/Tandon245" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-            <a class="btn btn-secondary" href="https://portfolioabhishektandon.netlify.app/" target="_blank" rel="noopener noreferrer">Portfolio ↗</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+</td>
+</tr>
+</table>
 
-  <footer>
-    <div class="container footer-inner">
-      <span>© <span id="year"></span> Abhishek Tandon. Built with care.</span>
-      <a class="back-top" href="#home">Back to top ↑</a>
-    </div>
-  </footer>
+<div align="center">
 
-  <script>
-    const menuToggle = document.getElementById("menuToggle");
-    const navLinks = document.getElementById("navLinks");
+### 💼 **Professional Highlights**
 
-    menuToggle.addEventListener("click", () => {
-      const isOpen = navLinks.classList.toggle("open");
-      menuToggle.setAttribute("aria-expanded", String(isOpen));
-      menuToggle.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
-      menuToggle.textContent = isOpen ? "×" : "☰";
-    });
+</div>
 
-    navLinks.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        navLinks.classList.remove("open");
-        menuToggle.setAttribute("aria-expanded", "false");
-        menuToggle.setAttribute("aria-label", "Open navigation menu");
-        menuToggle.textContent = "☰";
-      });
-    });
+<table align="center">
+<tr>
+<td align="center" width="50%">
+  
+📱 **Android Apps Published**  
+15+ Production Apps on Play Store
 
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+</td>
+<td align="center" width="50%">
+  
+🎯 **Crash-Free Rate**  
+99.5% across all projects
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  
+⚡ **BLE Integrations**  
+5+ Smart Device SDK Implementations
+
+</td>
+<td align="center">
+  
+🔥 **API Integrations**  
+30+ RESTful Services Integrated
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+  
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> **Tech Stack**
+
+</div>
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="25" /> **Mobile Development**
+
+<p align="center">
+  <a href="https://kotlinlang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  </a>
+  <a href="https://developer.android.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
+  </a>
+  <a href="https://developer.android.com/jetpack/compose" target="_blank">
+    <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
+  </a>
+  <a href="https://flutter.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+  </a>
+  <a href="https://dart.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
+  </a>
+  <a href="https://developer.android.com/studio" target="_blank">
+    <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="Android Studio"/>
+  </a>
+</p>
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="25" /> **Backend Development**
+
+<p align="center">
+  <a href="https://www.java.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  </a>
+  <a href="https://spring.io/projects/spring-boot" target="_blank">
+    <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  </a>
+  <a href="https://www.mysql.com/" target="_blank">
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  </a>
+  <a href="https://www.postman.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
+  </a>
+  <a href="https://swagger.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
+  </a>
+</p>
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="25" /> **Firebase & Cloud Services**
+
+<p align="center">
+  <a href="https://firebase.google.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+  </a>
+  <a href="https://firebase.google.com/docs/auth" target="_blank">
+    <img src="https://img.shields.io/badge/Firebase%20Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Auth"/>
+  </a>
+  <a href="https://firebase.google.com/docs/firestore" target="_blank">
+    <img src="https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firestore"/>
+  </a>
+  <a href="https://firebase.google.com/docs/cloud-messaging" target="_blank">
+    <img src="https://img.shields.io/badge/FCM-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="FCM"/>
+  </a>
+  <a href="https://firebase.google.com/docs/crashlytics" target="_blank">
+    <img src="https://img.shields.io/badge/Crashlytics-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Crashlytics"/>
+  </a>
+</p>
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="25" /> **Tools & Platforms**
+
+<p align="center">
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  </a>
+  <a href="https://github.com/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://about.gitlab.com/" target="_blank">
+    <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
+  </a>
+  <a href="https://bitbucket.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white" alt="Bitbucket"/>
+  </a>
+  <a href="https://play.google.com/console/" target="_blank">
+    <img src="https://img.shields.io/badge/Play%20Console-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Play Console"/>
+  </a>
+  <a href="https://azure.microsoft.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
+  </a>
+</p>
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Building%20Construction.png" width="25" /> **Architecture & Design Patterns**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MVVM-FF6B6B?style=for-the-badge&logo=android&logoColor=white" alt="MVVM"/>
+  <img src="https://img.shields.io/badge/Clean%20Architecture-4ECDC4?style=for-the-badge&logo=android&logoColor=white" alt="Clean Architecture"/>
+  <img src="https://img.shields.io/badge/Repository%20Pattern-95E1D3?style=for-the-badge&logo=android&logoColor=white" alt="Repository Pattern"/>
+  <img src="https://img.shields.io/badge/Dependency%20Injection-F38181?style=for-the-badge&logo=android&logoColor=white" alt="Dependency Injection"/>
+  <img src="https://img.shields.io/badge/Retrofit-48DBFB?style=for-the-badge&logo=retrofit&logoColor=white" alt="Retrofit"/>
+  <img src="https://img.shields.io/badge/Room%20DB-00D2FF?style=for-the-badge&logo=sqlite&logoColor=white" alt="Room DB"/>
+  <img src="https://img.shields.io/badge/Coroutines-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Coroutines"/>
+  <img src="https://img.shields.io/badge/Flow-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Flow"/>
+</p>
+
+---
+
+<div align="center">
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="30" /> **Featured Projects**
+
+</div>
+
+<table align="center">
+<tr>
+<td width="50%">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Running%20Shoe.png" width="25" /> **Brio - Smart Fitness App**
+
+**Health-Tech • BLE SDK Integration • Android**
+
+🎯 Comprehensive fitness platform integrating multiple BLE-enabled smart devices (skipping ropes, smart scales, measuring tools)
+
+**Tech Stack:**
+- Kotlin, Jetpack Compose
+- BLE SDK Integration
+- Real-time Data Visualization
+- MVVM Clean Architecture
+- Coroutines for Background Processing
+
+**Achievements:**
+- ⚡ Simultaneous multi-device BLE management
+- 📊 Live fitness metrics & analytics dashboards
+- 🎨 Modern UI with Jetpack Compose
+- 📱 **5000+ Downloads** on Play Store
+
+[<img src="https://img.shields.io/badge/Play%20Store-414141?style=for-the-badge&logo=googleplay&logoColor=white" />](https://play.google.com/store/apps/details?id=sa.com.brio.android)
+
+</td>
+<td width="50%">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Money%20Bag.png" width="25" /> **MoConnect - Fintech Platform**
+
+**Fintech • Airtime & Utility Platform • Android**
+
+💰 Full-stack fintech solution for airtime top-ups, international recharges, utility payments & secure wallet transactions
+
+**Tech Stack:**
+- Kotlin, MVVM Architecture
+- Retrofit + Coroutines
+- Secure Payment Gateway Integration
+- Firebase Auth & Firestore
+- Real-time Transaction Processing
+
+**Achievements:**
+- 🔐 End-to-end encrypted API workflows
+- 💳 Wallet-based transaction flows
+- ⚡ Optimized JSON parsing
+- 📱 **10,000+ Active Users**
+
+[<img src="https://img.shields.io/badge/Play%20Store-414141?style=for-the-badge&logo=googleplay&logoColor=white" />](https://play.google.com/store/apps/details?id=za.co.moconnect.android.customer)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="25" /> **EasiApp - B2B & B2C Telecom**
+
+**Telecom • RICA Compliance • Android**
+
+📞 Dual applications serving B2B and B2C segments with RICA-compliant SIM purchases and real-time utility recharges
+
+**Tech Stack:**
+- Kotlin, Material Design
+- RICA Compliance Integration
+- Multiple Third-party APIs
+- State Management Optimization
+- Secure Payment Processing
+
+**Achievements:**
+- ✅ RICA-compliant SIM purchasing workflows
+- 🔌 Multiple utility API integrations
+- 📉 Reduced transaction drop-offs by 40%
+- 📱 **15,000+ Downloads**
+
+[<img src="https://img.shields.io/badge/Play%20Store-414141?style=for-the-badge&logo=googleplay&logoColor=white" />](https://play.google.com/store/apps/details?id=za.co.easicall.rica)
+
+</td>
+<td width="50%">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Sparkling%20Heart.png" width="25" /> **Selective Matchmaker**
+
+**Social • Matrimony Platform • Android**
+
+❤️ High-intent native matchmaking platform with advanced filtering and secure authentication
+
+**Tech Stack:**
+- Kotlin, MVVM Architecture
+- Firebase Authentication
+- Retrofit + Coroutines
+- Advanced Search & Filtering
+- Real-time Messaging
+
+**Achievements:**
+- 🔒 Secure user data handling
+- ⚡ 99.9% API reliability
+- 🎯 Asynchronous API integration
+- 📱 **8,000+ Happy Users**
+
+[<img src="https://img.shields.io/badge/Play%20Store-414141?style=for-the-badge&logo=googleplay&logoColor=white" />](https://play.google.com/store/apps/details?id=com.selectivematchmaker.android)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="30" /> **GitHub Statistics**
+
+</div>
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tandon245&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&ring_color=7F52FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=tandon245&theme=tokyonight&hide_border=true&ring=7F52FF&fire=FF6B6B&currStreakLabel=00D9FF&background=0D1117" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tandon245&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F52FF&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tandon245&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=7F52FF&line=00D9FF&point=FFFFFF" alt="Contribution Graph" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=tandon245&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+</p>
+
+---
+
+<div align="center">
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="30" /> **Professional Experience**
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="20%">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" width="50" />
+  <br>
+  <strong>Oct 2024 - Present</strong>
+</td>
+<td width="80%">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="25" /> **Android Developer** - Vidursoft, Ghaziabad
+
+Leading Android development for fintech and health-tech products with **Kotlin**, **Jetpack Compose**, and BLE hardware SDK integration.
+
+**Key Contributions:**
+- 📱 Developed production apps with Kotlin, Jetpack Compose & MVVM
+- 🔌 Integrated RESTful APIs via Retrofit with Firebase services
+- ⚡ Integrated multiple BLE fitness devices with custom hardware SDK
+- 📉 Decreased crash incidents by 60% across all devices
+- 🚀 Managed comprehensive Google Play Store releases with CI/CD
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="50" />
+  <br>
+  <strong>Mar 2023 - Sep 2024</strong>
+</td>
+<td>
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="25" /> **Java / Android Developer** - Monoprabal Engineering, Bhopal
+
+Enterprise-level Android applications and backend systems using **Kotlin**, **Java**, and **Spring Boot**.
+
+**Key Contributions:**
+- 🏗️ Developed enterprise Android apps with Kotlin & Java under strict MVVM standards
+- 🎨 Designed responsive UI screens improving user retention by 35%
+- 🔥 Integrated Firebase Realtime Database & FCM for real-time sync
+- ⚙️ Built REST APIs using Spring Boot with optimized JSON parsing
+- 💾 Worked with MySQL, Azure Data Studio for backend integrations
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="30" /> **Education**
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="20%">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="50" />
+  <br>
+  <strong>2017 - 2021</strong>
+</td>
+<td width="80%">
+
+### 🎓 **Bachelor of Technology (B.Tech)**
+
+**Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal**  
+📊 CGPA: **7.24**  
+📍 Bhopal, Madhya Pradesh, India
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" width="30" /> **Coding Profiles & Achievements**
+
+</div>
+
+<p align="center">
+  <a href="https://leetcode.com/AbhiTandon2617" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  <a href="https://www.hackerrank.com/tandonabhishek21" target="_blank">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />
+  </a>
+  <a href="https://auth.geeksforgeeks.org/user/tandon245" target="_blank">
+    <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
+  </a>
+  <a href="https://www.codechef.com/" target="_blank">
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/AbhiTandon2617?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode Stats" />
+</p>
+
+---
+
+<div align="center">
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="35" /> **Let's Connect!**
+
+</div>
+
+<p align="center">
+  <a href="https://portfolioabhishektandon.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://www.linkedin.com/in/er-abhishek-tandon-3120a1220/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:tandonabhishek245@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/Tandon245" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://wa.me/919782205815" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  </a>
+  <a href="https://www.instagram.com/abhi_tandon25/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+</p>
+
+<div align="center">
+
+### 📞 **Contact Details**
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="30" />
+  <br>
+  <strong>Phone</strong>
+  <br>
+  +91-9782205815
+</td>
+<td align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/E-Mail.png" width="30" />
+  <br>
+  <strong>Email</strong>
+  <br>
+  tandonabhishek245@gmail.com
+</td>
+<td align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Round%20Pushpin.png" width="30" />
+  <br>
+  <strong>Location</strong>
+  <br>
+  Noida, UP - 201016, India
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+### 💡 **"Clean Code, Scalable Apps, Seamless Experiences"** 💡
+
+</div>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</div>
+
+---
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do&author=Steve%20Jobs" alt="Quote" />
+</div>
+
+---
+
+<div align="center">
+  
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" width="25" /> **Thanks for visiting!** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Blue%20Heart.png" width="25" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+</div>
