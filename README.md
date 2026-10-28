@@ -64,11 +64,16 @@ h3.sh{margin:34px 0 14px;font-size:1.1rem;color:var(--a)}
 nav{position:fixed;top:0;width:100%;z-index:10;backdrop-filter:blur(14px);background:#0b0f1acc;border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
 nav b{font-family:'JetBrains Mono',monospace}
-nav ul{display:flex;gap:20px;list-style:none;font-size:.88rem;color:var(--mut)}
+nav ul{display:flex;align-items:center;gap:20px;margin:0;padding:0;list-style:none;font-size:.88rem;color:var(--mut)}
+nav ul li{margin:0;padding:0;list-style:none}
+nav ul li a{display:inline-block;padding:6px 0}
 nav a:hover{color:var(--a)}
 #bar{position:absolute;bottom:-1px;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--a),var(--b))}
 
-.banner{width:100%;display:block;margin-top:60px}
+.banner{width:100%;max-width:100%;height:auto;display:block;margin-top:60px;object-fit:cover}
+main{display:block;min-width:0}
+body>canvas#bg{pointer-events:none}
+nav,nav *{box-sizing:border-box}
 .hero{padding:50px 0 70px;text-align:center}
 .hero h1{font-size:clamp(2.4rem,7vw,4.6rem);font-weight:800;line-height:1.08;margin:8px 0 14px}
 .role{font:500 clamp(1rem,2.6vw,1.4rem)/1.4 'JetBrains Mono',monospace;color:var(--a);min-height:2em}
@@ -127,7 +132,8 @@ pre i{color:var(--a);font-style:normal}
 footer{text-align:center;color:var(--mut);padding:30px 20px 0;font-size:.9rem}
 .rv{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
 .rv.on{opacity:1;transform:none}
-@media(max-width:860px){nav ul{display:none}}
+@media(max-width:860px){nav ul{display:none!important}nav .wrap{height:60px}}
+@media(max-width:480px){.wrap{padding-inline:16px}.hero{padding:36px 0 52px}.hero h1{font-size:clamp(2rem,10vw,3rem)}.btns{gap:8px}.btn{padding:10px 15px}.grid{grid-template-columns:minmax(0,1fr)}.statimgs{grid-template-columns:minmax(0,1fr)}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
 </style>
 </head>
